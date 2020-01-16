@@ -46,3 +46,6 @@ nx.deepEach(obj, (key, value) => {
   console.log(key,value);
 });
 ```
+
+## resources
+- https://github.com/afeiship/next-is-circular
