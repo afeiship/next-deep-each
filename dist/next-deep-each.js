@@ -3,7 +3,7 @@
  * description: Deep each for next.
  * url: https://github.com/afeiship/next-deep-each
  * version: 1.0.0
- * date: 2020-01-16 14:52:46
+ * date: 2020-01-16 14:53:33
  * license: MIT
  */
 
