@@ -4,7 +4,7 @@
   var MSG_ERROR_MUST_TARGET = 'Target must be an array or an object.';
 
   nx.deepEach = function(inTarget, inCallback, inContext) {
-    if (!inTarget || inTarget == null || typeof inTarget !== 'object') {
+    if (!inTarget || typeof inTarget !== 'object') {
       nx.error(MSG_ERROR_MUST_TARGET);
     }
 
