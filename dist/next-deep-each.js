@@ -2,8 +2,8 @@
  * name: @feizheng/next-deep-each
  * description: Deep each for next.
  * url: https://github.com/afeiship/next-deep-each
- * version: 1.0.0
- * date: 2020-01-16 17:16:23
+ * version: 1.0.1
+ * date: 2020-01-16 17:17:02
  * license: MIT
  */
 
