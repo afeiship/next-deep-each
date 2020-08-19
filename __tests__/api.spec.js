@@ -2,7 +2,7 @@ const nx = require('@feizheng/next-js-core2');
 require('../src/next-deep-each');
 
 describe('api.basic test', () => {
-  test('nx.deepEach', function() {
+  test('nx.deepEach', function () {
     var execute = 0;
     var obj = {
       name: 'deep-each',
