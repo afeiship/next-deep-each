@@ -8,12 +8,12 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-deep-each
+npm install -S @jswork/next-deep-each
 ```
 
 ## usage
 ```js
-import '@feizheng/next-deep-each';
+import '@jswork/next-deep-each';
 
 const obj = {
   name: 'deep-each',
@@ -52,20 +52,17 @@ nx.deepEach(obj, (key, value) => {
 });
 ```
 
-## resources
-- https://github.com/afeiship/next-is-circular
-
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-deep-each/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-deep-each
-[version-url]: https://npmjs.org/package/@feizheng/next-deep-each
+[version-image]: https://img.shields.io/npm/v/@jswork/next-deep-each
+[version-url]: https://npmjs.org/package/@jswork/next-deep-each
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-deep-each
+[license-image]: https://img.shields.io/npm/l/@jswork/next-deep-each
 [license-url]: https://github.com/afeiship/next-deep-each/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-deep-each
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-deep-each
 [size-url]: https://github.com/afeiship/next-deep-each/blob/master/dist/next-deep-each.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-deep-each
-[download-url]: https://www.npmjs.com/package/@feizheng/next-deep-each
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-deep-each
+[download-url]: https://www.npmjs.com/package/@jswork/next-deep-each
