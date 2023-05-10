@@ -47,7 +47,7 @@ const obj = {
 };
 
 // main
-nx.deepEach(obj, (key, value) => {
+nx.deepEach(obj, (key, value, target, isAry, paths) => {
   console.log(key,value);
 });
 ```

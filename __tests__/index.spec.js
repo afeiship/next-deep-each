@@ -29,15 +29,17 @@ describe('api.basic test', () => {
               g1: 1,
               g2: 123
             }
-          }
+          },
+          arr: [4, 5, { six: 6 }]
         }
       }
     };
 
-    nx.deepEach(obj, (key, value) => {
+    nx.deepEach(obj, (key, value, target, isAry, paths) => {
       execute++;
+      console.log(key, value, target, isAry, paths);
     });
 
-    expect(execute).toBe(20);
+    expect(execute).toBe(25);
   });
 });
